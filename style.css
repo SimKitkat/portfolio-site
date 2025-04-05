@@ -85,7 +85,7 @@ nav h2 h1 {
 .bar {
   width: 30px;
   height: 4px;
-
+  background-color: white;
   margin: 5px 0;
 }
 
@@ -171,14 +171,6 @@ footer {
   .hero-text {
     text-align: left;
     flex: 1;
-  }
-}
-@keyframes scrollBanner {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-50%);
   }
 }
 @media screen and (max-width: 768px) {
