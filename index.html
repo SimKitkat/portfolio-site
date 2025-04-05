@@ -3,43 +3,113 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Simone's Portfolio</title>
+    <title>Simone Designs | Affordable Web Design</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
-      <h1>Simone Web Developer</h1>
-      <p>Simple, Responsive Websites for Small Businesses</p>
-    </header>
-    <section class="projects">
-      <h2>My Work</h2>
-      <div class="project-grid">
-        <a href="https://dreamstay-real-estate.netlify.app/" target="_blank">
-          <div class="project-card">🏘️ Real Estate</div>
-        </a>
-        <a href="https://services-to-offer.netlify.app/" target="_blank">
-          <div class="project-card">🧰 Services</div>
-        </a>
-        <a href="https://glow-hair.netlify.app/" target="_blank">
-          <div class="project-card">💇 Hair & Beauty</div>
-        </a>
-        <a href="https://small-builds.netlify.app/" target="_blank">
-          <div class="project-card">🏗️ Construction</div>
-        </a>
-        <a href="https://personal-trainer-for-you.netlify.app/" target="_blank">
-          <div class="project-card">💪 Personal Trainer</div>
-        </a>
-        <a href="https://tastebud-menu.netlify.app/" target="_blank">
-          <div class="project-card">🍽️ Restaurant</div>
-        </a>
+    <nav id="navbar">
+      <div class="menu-toggle" id="mobile-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+      <header>
+        <h1 class="logo">SimDesigns</h1>
+        <nav>
+          <a href="#services">Services</a>
+          <a href="#why">Why Me</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </header>
+    </nav>
+
+    <section class="hero">
+      <h2>I create beautiful & affordable websites for small businesses.</h2>
+    </section>
+
+    <section id="about" class="about section">
+      <div class="container">
+        <h2>About Me</h2>
+        <p>
+          I’m Simone, a beginner web developer who helps small businesses,
+          creatives, and freelancers build clean, modern websites. I keep it
+          simple, mobile-friendly, and affordable.
+        </p>
       </div>
     </section>
-    <section class="contact">
-      <h2>Contact Me</h2>
-      <p>Email: youremail@example.com</p>
+
+    <section id="services" class="services section">
+      <div class="container">
+        <h2>Services</h2>
+        <div class="service-grid">
+          <div class="service">
+            <h3>Single-Page Website</h3>
+            <p>Perfect for restaurants, salons, coaches, and more.</p>
+            <p class="price">From R499</p>
+          </div>
+          <div class="service">
+            <h3>Static Multi-Section Website</h3>
+            <p>Includes home, about, contact sections with a sleek layout.</p>
+            <p class="price">From R799</p>
+          </div>
+          <div class="service">
+            <h3>Website Redesign</h3>
+            <p>Revamp your outdated site with a fresh, clean design.</p>
+            <p class="price">From R599</p>
+          </div>
+          <div class="service">
+            <h3>Mockup to Code</h3>
+            <p>Convert your sketch or design into a real website.</p>
+            <p class="price">From R499</p>
+          </div>
+        </div>
+      </div>
     </section>
+
+    <section id="portfolio" class="portfolio section">
+      <div class="container">
+        <h2>Portfolio</h2>
+        <div class="portfolio-grid">
+          <a href="https://tastebud-menu.netlify.app/" target="_blank"
+            >🍔 Restaurant Site</a
+          >
+          <a
+            href="https://personal-trainer-for-you.netlify.app/"
+            target="_blank"
+            >🏋️ Fitness Page</a
+          >
+          <a href="https://glow-hair.netlify.app/" target="_blank"
+            >💇 Hair Salon</a
+          >
+          <a href="https://services-to-offer.netlify.app/" target="_blank"
+            >🧼 Cleaning Services</a
+          >
+          <a href="https://dreamstay-real-estate.netlify.app/" target="_blank"
+            >🏠 Real Estate</a
+          >
+          <a href="https://small-builds.netlify.app/" target="_blank"
+            >👷 Construction</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact section">
+      <div class="container">
+        <h2>Let’s Work Together</h2>
+        <p>
+          Email me at
+          <a href="mailto:hello@simdesigns.co.za">hello@simdesigns.co.za</a> or
+          message me on WhatsApp below.
+        </p>
+        <a href="https://wa.me/your-number" class="btn"
+          >📲 Message on WhatsApp</a
+        >
+      </div>
+    </section>
+
     <footer>
-      <p>&copy; 2025 Simone | Built with 💻</p>
+      <p>© 2025 Simone Designs. All rights reserved.</p>
     </footer>
   </body>
 </html>
