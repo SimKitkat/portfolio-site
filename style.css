@@ -80,12 +80,14 @@ nav h2 h1 {
   display: none;
   flex-direction: column;
   cursor: pointer;
+  text-align: left;
+  position: end;
 }
 
 .bar {
   width: 30px;
   height: 4px;
-  background-color: white;
+  background-color: #84dcc6;
   margin: 5px 0;
 }
 
