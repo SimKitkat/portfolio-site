@@ -3,8 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Get beautiful, affordable websites for small businesses with fast turnaround times. Specializing in restaurant, salon, and service business websites."
+    />
     <title>Simone Designs | Affordable Web Design</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
   </head>
   <body>
     <nav id="navbar">
@@ -17,52 +25,117 @@
       </div>
 
       <div class="nav-links" id="nav-links">
-        <a href="#services">Services</a>
+        <a href="#pricing">Services</a>
         <a href="#portfolio">Portfolio</a>
         <a href="#contact">Contact</a>
       </div>
     </nav>
-
     <section class="hero">
-      <h2>I create beautiful & affordable websites for small businesses.</h2>
+      <div class="hero-content">
+        <h2>I create beautiful & affordable websites for small businesses.</h2>
+        <p class="subtitle">
+          Get a professional online presence in 5 days or less
+        </p>
+        <div class="hero-buttons">
+          <a href="#pricing" class="btn">See Packages</a>
+          <a href="#contact" class="btn-outline">Get Free Quote</a>
+        </div>
+        <div class="trust-badges">
+          <div class="badge">
+            <i class="fas fa-check-circle"></i> 24+ Projects
+          </div>
+          <div class="badge"><i class="fas fa-star"></i> Mobile Responsive</div>
+          <div class="badge"><i class="fas fa-bolt"></i> SEO Optimized</div>
+        </div>
+      </div>
     </section>
 
     <section id="about" class="about section">
       <div class="container">
         <h2>About Me</h2>
-        <p>
-          I’m Simone, a beginner web developer who helps small businesses,
-          creatives, and freelancers build clean, modern websites. I keep it
-          simple, mobile-friendly, and affordable.
-        </p>
+        <div class="about-content">
+          <div class="about-text">
+            <p>
+              I'm Simone, a beginner web developer who helps small businesses,
+              creatives, and freelancers build clean, modern websites. I keep it
+              simple, mobile-friendly, and affordable.
+            </p>
+            <div class="skills">
+              <div class="skill">
+                <h4>HTML/CSS</h4>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 90%"></div>
+                </div>
+              </div>
+              <div class="skill">
+                <h4>JavaScript</h4>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 75%"></div>
+                </div>
+              </div>
+              <div class="skill">
+                <h4>Responsive Design</h4>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 85%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
-
-    <section id="services" class="services section">
+    <section id="pricing" class="pricing section">
       <div class="container">
-        <h2>Services</h2>
-        <div class="service-grid">
-          <div class="service">
-            <h3>Starter Site</h3>
-            <p>Single-page site (up to 3 sections),Delivery: days.</p>
-            <p class="price">From $35</p>
+        <h2>Simple Pricing</h2>
+        <p class="section-subtitle">No hidden fees - everything included</p>
+
+        <div class="pricing-cards">
+          <div class="pricing-card">
+            <h3>Starter</h3>
+            <div class="price">$35</div>
+            <ul class="features">
+              <li><i class="fas fa-check"></i> 3-Section Website</li>
+              <li><i class="fas fa-check"></i> Mobile Responsive</li>
+              <li><i class="fas fa-check"></i> Basic Contact Form</li>
+              <li><i class="fas fa-check"></i> 2-Day Delivery</li>
+              <li><i class="fas fa-times"></i> No Revisions</li>
+            </ul>
+            <a href="#contact" class="btn btn-outline">Get Started</a>
           </div>
-          <div class="service">
-            <h3>Pro Site</h3>
-            <p>
-              Full one-page site (up to 5 sections), Mobile + tablet responsive,
-              Social media icons.
-            </p>
-            <p class="price">From $50</p>
+
+          <div class="pricing-card popular">
+            <div class="popular-badge">Most Popular</div>
+            <h3>Standard</h3>
+            <div class="price">$50</div>
+            <ul class="features">
+              <li><i class="fas fa-check"></i> 5-section Website</li>
+              <li><i class="fas fa-check"></i> Custom Design</li>
+              <li><i class="fas fa-check"></i> Contact Form</li>
+              <li><i class="fas fa-check"></i> 3 Revisions</li>
+              <li><i class="fas fa-check"></i> Basic SEO</li>
+            </ul>
+            <a href="#contact" class="btn">Choose Standard</a>
           </div>
-          <div class="service">
-            <h3>Full Business Site</h3>
-            <p>
-              One-page site with 6+ sections, Speed optimization , Upload
-              existing content for you.
-            </p>
-            <p class="price">From $75</p>
+
+          <div class="pricing-card">
+            <h3>Premium</h3>
+            <div class="price">$75</div>
+            <ul class="features">
+              <li><i class="fas fa-check"></i> Up to 7 Sections</li>
+              <li><i class="fas fa-check"></i> Mobile Responsive</li>
+              <li><i class="fas fa-check"></i> Photo Gallery</li>
+              <li><i class="fas fa-check"></i> Unlimited Revisions</li>
+              <li><i class="fas fa-check"></i> 1 Month Support</li>
+            </ul>
+            <a href="#contact" class="btn btn-outline">Go Premium</a>
           </div>
+        </div>
+
+        <div class="pricing-note">
+          <p>
+            <i class="fas fa-info-circle"></i> Need something custom?
+            <a href="#contact">Get a free quote</a>
+          </p>
         </div>
       </div>
     </section>
@@ -70,31 +143,68 @@
     <section id="portfolio" class="portfolio section">
       <div class="container">
         <h2>Portfolio</h2>
+        <p class="section-subtitle">Recent projects I've created</p>
         <div class="portfolio-grid">
-          <a href="https://tastebud-menu.netlify.app/" target="_blank"
-            >🍔 Restaurant Site</a
-          >
-          <a
-            href="https://personal-trainer-for-you.netlify.app/"
-            target="_blank"
-            >🏋️ Fitness Page</a
-          >
-          <a href="https://glow-hair.netlify.app/" target="_blank"
-            >💇 Hair Salon</a
-          >
-          <a href="https://services-to-offer.netlify.app/" target="_blank"
-            >🧼 Cleaning Services</a
-          >
-          <a href="https://dreamstay-real-estate.netlify.app/" target="_blank"
-            >🏠 Real Estate</a
-          >
-          <a href="https://glamnailstudio.netlify.app/" target="_blank"
-            >💅🏼 Nail studio</a
-          >
-          <a href="https://professional-agency.netlify.app/" target="_blank"
-            >🏠 Agency</a
-          >
-          <a href="https://simblogs.netlify.app/" target="_blank"> 📰 Blog</a>
+          <div class="portfolio-item">
+            <img
+              src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+              alt="Restaurant website"
+            />
+            <div class="portfolio-overlay">
+              <h3>Restaurant Site</h3>
+              <a
+                href="https://tastebud-menu.netlify.app/"
+                target="_blank"
+                class="btn"
+                >View Project</a
+              >
+            </div>
+          </div>
+          <div class="portfolio-item">
+            <img
+              src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+              alt="Fitness website"
+            />
+            <div class="portfolio-overlay">
+              <h3>Fitness Page</h3>
+              <a
+                href="https://personal-trainer-for-you.netlify.app/"
+                target="_blank"
+                class="btn"
+                >View Project</a
+              >
+            </div>
+          </div>
+          <div class="portfolio-item">
+            <img
+              src="https://images.unsplash.com/photo-1600334129128-685c5582fd35?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+              alt="Hair salon website"
+            />
+            <div class="portfolio-overlay">
+              <h3>Hair Salon</h3>
+              <a
+                href="https://glow-hair.netlify.app/"
+                target="_blank"
+                class="btn"
+                >View Project</a
+              >
+            </div>
+          </div>
+          <div class="portfolio-item">
+            <img
+              src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+              alt="Real estate website"
+            />
+            <div class="portfolio-overlay">
+              <h3>Real Estate</h3>
+              <a
+                href="https://dreamstay-real-estate.netlify.app/"
+                target="_blank"
+                class="btn"
+                >View Project</a
+              >
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -135,7 +245,29 @@
 
     <script src="index.js"></script>
     <footer>
-      <p>© 2025 Sim-Builds. All rights reserved.</p>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-about">
+            <h3>Sim-Builds</h3>
+            <p>Affordable web design for small businesses and entrepreneurs.</p>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <div class="footer-links">
+            <h4>Quick Links</h4>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#pricing">Pricing</a>
+            <a href="#contact">Contact</a>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>© 2025 Sim-Builds. All rights reserved.</p>
+        </div>
+      </div>
     </footer>
   </body>
 </html>
