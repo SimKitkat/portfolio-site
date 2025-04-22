@@ -1,7 +1,17 @@
-const mobileMenu = document.getElementById("mobile-menu");
-const navLinks = document.getElementById("nav-links");
+const burger = document.getElementById("burger");
+const nav = document.getElementById("nav-links");
 
-mobileMenu.addEventListener("click", () => {
-  navLinks.classList.toggle("active");
-  mobileMenu.classList.toggle("open");
+burger.addEventListener("click", () => {
+  nav.classList.toggle("active");
+});
+
+// Close menu when clicking outside or on a link
+document.addEventListener("click", function (e) {
+  if (!burger.contains(e.target) && !nav.contains(e.target)) {
+    nav.classList.remove("active");
+  }
+});
+
+nav.addEventListener("click", function () {
+  nav.classList.remove("active");
 });

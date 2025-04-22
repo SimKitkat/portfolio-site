@@ -115,15 +115,21 @@ html {
   text-decoration: none;
   font-weight: 500;
 }
+.nav-links a:hover {
+  color: #6fcf97;
+}
+.nav-links.active {
+  display: flex;
+}
 
 /* Burger Menu */
-.menu-toggle {
+.burger {
   display: none;
   flex-direction: column;
   cursor: pointer;
 }
 
-.menu-toggle .bar {
+.burger .bar {
   height: 3px;
   width: 25px;
   background-color: white;
@@ -569,7 +575,7 @@ h2 {
 }
 
 @media (max-width: 768px) {
-  .menu-toggle {
+  .burger {
     display: flex;
   }
 
@@ -596,7 +602,7 @@ h2 {
   }
 }
 @media (max-width: 768px) {
-  .menu-toggle {
+  .burger {
     display: flex;
   }
 
@@ -605,8 +611,8 @@ h2 {
     top: 0;
     right: -100%;
     width: 80%;
-    max-width: 300px;
-    height: 100vh;
+    max-width: 100px;
+    height: 50vh;
     background: black;
     flex-direction: column;
     justify-content: center;
@@ -649,18 +655,17 @@ h2 {
   }
 }
 @media (max-width: 768px) {
-  .menu-toggle {
+  .burger {
     display: flex;
   }
 
   .nav-links {
     position: fixed;
-    top: 0;
-    right: -100%;
-    width: 80%;
-    max-width: 300px;
-    height: 100vh;
-    background: var(--darker);
+
+    width: 90%;
+    max-width: 200px;
+    height: 30vh;
+    background: black;
     flex-direction: column;
     justify-content: center;
     padding: 2rem;
