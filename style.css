@@ -91,7 +91,7 @@ html {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background-color: #0f1e13; /* dark green/black background */
+  background-color: #0f1e13;
   color: white;
   position: relative;
   border-bottom: 10px solid transparent;
@@ -607,7 +607,7 @@ h2 {
     width: 80%;
     max-width: 300px;
     height: 100vh;
-    background: var(--darker);
+    background: black;
     flex-direction: column;
     justify-content: center;
     padding: 2rem;
