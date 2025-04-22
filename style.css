@@ -357,6 +357,30 @@ h2 {
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
+.tier-badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #1d3557;
+  color: #fff;
+  font-size: 0.75rem;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.disclaimer {
+  font-size: 0.9rem;
+  color: #999;
+  text-align: center;
+  margin: 2rem auto 0;
+  padding: 1rem 1.5rem;
+  max-width: 600px;
+  line-height: 1.5;
+}
+
 .contact p,
 .contact a {
   text-align: center;
