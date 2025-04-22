@@ -497,7 +497,8 @@ h2 {
   transition: color 0.3s;
 }
 
-.footer-links a:hover {
+.footer-links,
+.platforms a:hover {
   color: #6fcf97;
 }
 
@@ -507,6 +508,64 @@ h2 {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   color: #aaaaaa;
   font-size: 0.9rem;
+}
+/* Payment Page Styling */
+.payment-hero {
+  background-color: #004d40;
+  color: white;
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.payment-section {
+  background-color: #f4f4f4;
+  padding: 4rem 2rem;
+  color: #333;
+}
+
+.payment-steps {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.step {
+  background-color: white;
+  border-left: 4px solid #00bfa5;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.platforms {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 2rem;
+}
+
+.platforms li {
+  padding: 0.5rem 0;
+  font-weight: 500;
+}
+
+.cta-box {
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.cta-box .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #00bfa5;
+  color: white;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.cta-box .btn:hover {
+  background-color: #009e86;
 }
 
 @media (max-width: 768px) {
