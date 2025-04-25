@@ -454,6 +454,45 @@ h2 {
 .update-btn:hover {
   background-color: #84dcc6;
 }
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 3rem;
+}
+
+.contact-info {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.info-item {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.info-item i {
+  font-size: 1.5rem;
+  color: #00bfa5;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 1rem;
+  background: black;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+  color: white;
+}
+
+.form-group textarea {
+  min-height: 150px;
+}
 
 * Footer */ footer {
   background: #0a0c10;
@@ -470,6 +509,10 @@ h2 {
 .footer-about h3 {
   color: #84dcc6;
   margin-bottom: 1rem;
+}
+footer .container {
+  display: block;
+  justify-content: space-between;
 }
 
 .social-links {
