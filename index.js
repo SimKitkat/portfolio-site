@@ -11,7 +11,3 @@ document.addEventListener("click", function (e) {
     nav.classList.remove("active");
   }
 });
-
-nav.addEventListener("click", function () {
-  nav.classList.remove("active");
-});

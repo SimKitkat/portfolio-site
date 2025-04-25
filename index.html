@@ -260,22 +260,18 @@
       <div class="container">
         <h2>Let’s Work Together</h2>
         <div class="contact-form">
-          <form id="enquiryForm">
-            <form action="https://formspree.io/f/xwpoppdn" method="POST"></form>
-            <div class="form-group">
-              <input type="text" placeholder="Your Name" required />
-            </div>
-            <div class="form-group">
-              <input type="email" placeholder="Email Address" required />
-            </div>
-            <div class="form-group">
-              <textarea
-                placeholder="Tell me about your project..."
-                required
-              ></textarea>
-            </div>
-            <button type="submit" class="btn">Send Message</button>
-          </form>
+      <form id="enquiryForm" action="https://formspree.io/f/xwpoppdn" method="POST">
+  <div class="form-group">
+    <input type="text" name="name" placeholder="Your Name" required />
+  </div>
+  <div class="form-group">
+    <input type="email" name="email" placeholder="Email Address" required />
+  </div>
+  <div class="form-group">
+    <textarea name="message" placeholder="Tell me about your project..." required></textarea>
+  </div>
+  <button type="submit" class="btn">Send Message</button>
+</form>
         </div>
 
         <p>
