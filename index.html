@@ -13,6 +13,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
     />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
@@ -21,7 +22,7 @@
   </head>
   <body>
     <nav id="navbar">
-      <h1 class="logo">Sim-Builds</h1>
+      <h1 class="logo"><a href="index.html">Sim-Builds</a></h1>
 
       <div class="burger" id="burger">
         <span class="bar"></span>
@@ -160,11 +161,58 @@
       </div>
     </section>
 
+    <section class="section promo-kit fade-in">
+      <div class="container">
+        <h2>Free Promo Kit Included 🎁</h2>
+        <p>Every full website includes 3 Canva graphics to help you promote with style.</p>
+    
+        <div class="promo-preview-grid">
+          <div class="promo-card floating">
+            <img src="images/L1.png" alt="We're Live Post" />
+            <p>Product Launch!</p>
+          </div>
+          <div class="promo-card floating">
+            <img src="images/L2.png" alt="Service Highlight" />
+            <p>Product Highlight</p>
+          </div>
+          <div class="promo-card floating">
+            <img src="images/L3.png" alt="Meet the Founder" />
+            <p>Support and Follow!</p>
+          </div>
+        </div>
+        <div class="promo-preview-grid">
+          <div class="promo-card floating">
+            <img src="images/SU1 (1).png" alt="We're Live Post" />
+            <p>“We’re Live” Post</p>
+          </div>
+          <div class="promo-card floating">
+            <img src="images/SU1 (2).png" alt="Service Highlight" />
+            <p>Service Highlight</p>
+          </div>
+          <div class="promo-card floating">
+            <img src="images/SU1 (3).png" alt="Meet the Founder" />
+            <p>Support and Follow!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
     <section id="portfolio" class="portfolio section">
       <div class="container">
         <h2>Portfolio</h2>
         <p class="section-subtitle">Recent projects I've created</p>
         <div class="portfolio-grid">
+          <div class="portfolio-item featured">
+            <span class="tier-badge">🌟 Featured</span>
+            <img src="images/Minimalist planner Launch Laptop Mockup Instagram Post.png" alt="Digital Planner Project" />
+            <div class="portfolio-overlay">
+              <h3>Digital Planner Launch Page</h3>
+              <a href="https://simoneccpt.gumroad.com/l/abzscl" class="btn" target="_blank">View Project</a>
+            </div>
+          </div>
+          
+          
           <div class="portfolio-item">
             <span class="tier-badge">Tier 1</span>
             <img
@@ -200,7 +248,7 @@
           <div class="portfolio-item">
             <span class="tier-badge">Tier 2</span>
             <img
-              src="pexels-delbeautybox-211032-853427.jpg"
+              src="images/pexels-delbeautybox-211032-853427.jpg"
               alt="Hair salon website"
             />
             <div class="portfolio-overlay">
@@ -231,7 +279,7 @@
           </div>
           <div class="portfolio-item">
             <span class="tier-badge">Tier 3</span>
-            <img src="pexels-jplenio-1423600.jpg" alt="wild forest" />
+            <img src="images/pexels-jplenio-1423600.jpg" alt="wild forest" />
             <div class="portfolio-overlay">
               <h3>Photographer</h3>
               <a
@@ -244,7 +292,7 @@
           </div>
           <div class="portfolio-item">
             <span class="tier-badge">Tier 3</span>
-            <img src="ban.jpg" alt="beauty bar" />
+            <img src="images/ban.jpg" alt="beauty bar" />
             <div class="portfolio-overlay">
               <h3>Luxury Site</h3>
               <a href="	https://luxfeel.netlify.app/" target="_blank" class="btn"
@@ -254,6 +302,7 @@
           </div>
         </div>
       </div>
+      
     </section>
 
     <section id="contact" class="contact section">
@@ -280,27 +329,17 @@
         </p>
     </section>
 
-    <script src="index.js"></script>
     <footer>
       <div class="footer container">
         <div class="footer-content">
-          <div class="footer-about">
-            <h3>Sim-Builds</h3>
-
-            <div class="social-links">
-              <a href="https://www.instagram.com/sim_micheline/"
-                ><i class="fab fa-instagram"></i
-              ></a>
-              <a href="https://github.com/SimKitkat"
-                ><i class="fab fa-github"></i
-              ></a>
-            </div>
-          </div>
+          
           <div class="info-item">
-            <i class="fas fa-envelope"></i>
+            <i class="fas fa-lock"></i>
             <div>
-              <h4>Email</h4>
-              <a href="mailto:simoneccpt@gmail.com">simoneccpt@gmail.com</a>
+              <h4>Secure Contact</h4>
+              <p>Use the contact form or Fiverr to get in touch.</p>
+              <a href="https://www.fiverr.com/sim_builds" target="_blank"  class="btn">Fiverr</a>
+
             </div>
           </div>
           <div class="info-item">
@@ -335,5 +374,10 @@
         </div>
       </div>
     </footer>
+    <button id="themeToggle" class="theme-toggle" title="Toggle Light/Dark Mode">
+      🧊
+    </button>
+    
+    <script src="index.js"></script>
   </body>
 </html>
